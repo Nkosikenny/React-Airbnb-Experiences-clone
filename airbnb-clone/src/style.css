@@ -3,7 +3,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 0px;
 }
 
 nav {
@@ -37,4 +37,25 @@ section {
 
 .hero--text {
     margin-top: 0;
+}
+
+.card-component{
+    display: flex;
+    max-width: 700px;
+}
+
+.card-description{
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+}
+
+#starImage{
+    width: 0.875rem;
+    height: 0.875rem;
+}
+
+.gray-text{
+    color: #918E9B;
+    
 }
