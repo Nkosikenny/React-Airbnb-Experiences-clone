@@ -41,21 +41,25 @@ section {
 
 .card-component{
     display: flex;
-    max-width: 700px;
+    max-width: 50%;
 }
 
 .card-description{
-    display: flex;
     align-items: center;
-    font-size: 0.875rem;
+    font-size: 0.975rem;
+}
+
+img.katieImg{
+    border-radius: 10px;
 }
 
 #starImage{
-    width: 0.875rem;
-    height: 0.875rem;
+    width: 0.975rem;
+    height: 0.975rem;
 }
 
 .gray-text{
     color: #918E9B;
     
 }
+
